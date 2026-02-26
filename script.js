@@ -224,8 +224,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', () => {
         const scrollY = window.scrollY;
         if (scrollY < window.innerHeight) {
-            heroContent.style.transform = `translateY(${scrollY * 0.15}px)`;
-            heroContent.style.opacity = 1 - (scrollY / (window.innerHeight * 0.8));
+            heroContent.style.transform = `translateY(${scrollY * 0.08}px)`;
         }
     }, { passive: true });
 
